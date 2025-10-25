@@ -11,7 +11,7 @@ The implementation is written in Python using NumPy and demonstrates how a perce
 
 The perceptron is trained using 21 patterns (3 variations for each of 7 letters: A, B, C, D, E, J, K).  
 
-![Training](pics/training)  
+![Training](pics/training.png)  
 *Illustration of training process (weights updating, convergence).*
 
 ---
@@ -42,7 +42,7 @@ As shown above, even with some noise added, the perceptron can often recognize t
 This part allows the user to draw a letter on a grid, plot it, and let the program predict the letter.  
 
 **Example: Letter C guessed by the program:**  
-![Guessing C](pics/guessing.png)  
+<img src="pics/guessing.png" width="200">
 
 The program outputs the predicted letter after analyzing the input grid.
 
