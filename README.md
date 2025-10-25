@@ -20,11 +20,18 @@ The perceptron is trained using 21 patterns (3 variations for each of 7 letters:
 
 Here we add random noise to a letter and see if the perceptron can still recognize it.  
 
-**Original letter A:**  
-![Original A](pics/org.png)  
-
-**Letter A with noise:**  
-![Noisy A](pics/noisy.png)  
+<table>
+<tr>
+  <td align="center">
+    Original letter A<br>
+    <img src="pics/org.png" width="150">
+  </td>
+  <td align="center">
+    Letter A with noise<br>
+    <img src="pics/noisy.png" width="150">
+  </td>
+</tr>
+</table>
 
 As shown above, even with some noise added, the perceptron can often recognize the letter correctly.
 
@@ -35,7 +42,7 @@ As shown above, even with some noise added, the perceptron can often recognize t
 This part allows the user to draw a letter on a grid, plot it, and let the program predict the letter.  
 
 **Example: Letter C guessed by the program:**  
-![Guessing C](pics/guess_c.png)  
+![Guessing C](pics/guessing.png)  
 
 The program outputs the predicted letter after analyzing the input grid.
 
