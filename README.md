@@ -47,3 +47,4 @@ This part allows the user to draw a letter on a grid, plot it, and let the progr
 The program outputs the predicted letter after analyzing the input grid.
 
 ---
+
